@@ -12,18 +12,17 @@ DataEase is an open source data visualization analysis tool that helps users qui
 
 ### DataEase 的功能：
 
--   图表展示：支持 PC 端、移动端及大屏;
--   图表制作：支持丰富的图表类型(基于 Apache ECharts 实现)、支持拖拉拽方式快速制作仪表板;
--   数据引擎：支持直连模式、本地模式(基于 Apache Doris / Kettle 实现);
--   数据连接：支持关系型数据库、Excel 等文件、Hadoop 等大数据平台、NoSQL 等各种数据源。
+Chart display: support PC terminal, mobile terminal and large screen;
+Chart production: support rich chart types (based on Apache ECharts implementation), support drag-and-drop method to quickly create dashboards;
+Data engine: support direct connection mode, local mode (based on Apache Doris / Kettle implementation);
+Data connection: support relational databases, Excel and other files, Hadoop and other big data platforms, NoSQL and other data sources.
 
 ### DataEase 的优势：
 
--   开源开放：零门槛，线上快速获取和安装；快速获取用户反馈、按月发布新版本；
--   简单易用：极易上手，通过鼠标点击和拖拽即可完成分析；
--   秒级响应：集成 Apache Doris，超大数据量下秒级查询返回延时；
--   安全分享：支持多种数据分享方式，确保数据安全。
-
+-Open source: zero threshold, fast online acquisition and installation; fast user feedback, monthly release of new versions;
+-Simple and easy to use: very easy to use, analysis can be completed by clicking and dragging with the mouse;
+-Second-level response: Integrate Apache Doris, and second-level query return delay under extremely large data volume;
+-Safe sharing: Support multiple data sharing methods to ensure data security.
 ## UI 展示
 
 ![de-ui](https://www.fit2cloud.com/dataease/images/screenshot/dataease-v1.gif)
@@ -34,35 +33,34 @@ DataEase is an open source data visualization analysis tool that helps users qui
 
 ## 在线体验
 
--   环境地址：<https://demo.dataease.io/>
--   用户名：demo
--   密码：dataease
+-Environment address: <https://demo.dataease.io/>
+-Username: demo
+-Password: dataease
 
 ## 快速开始
 
-仅需两步快速安装 DataEase：
+Quickly install DataEase in two steps:
 
-1.  准备一台不小于 8 G内存的 64位 Linux 主机；
-2.  以 root 用户执行如下命令一键安装 DataEase。
+1. Prepare a 64-bit Linux host with no less than 8 G of RAM;
+2. As the root user, execute the following command to install DataEase with one click.
 
 ```sh
 curl -sSL https://github.com/dataease/dataease/releases/latest/download/quick_start.sh | sh
 ```
 
--   [在线文档](https://dataease.io/docs/)
--   [演示视频](https://www.bilibili.com/video/BV1UB4y1K7jA)
+-[Online Documentation](https://dataease.io/docs/)
+-[Demo Video](https://www.bilibili.com/video/BV1UB4y1K7jA)
 
-## 微信群
+## WeChat Group
 
 <img src="https://dataease.oss-cn-hangzhou.aliyuncs.com/img/wechat-group.png" width="156" height="156"/>
 
 ## 技术栈
-
--   后端：[Spring Boot](https://spring.io/projects/spring-boot)
--   前端：[Vue.js](https://vuejs.org/)、[Element](https://element.eleme.cn/)、[Apache ECharts](https://github.com/apache/echarts)
--   中间件：[MySQL](https://www.mysql.com/)
--   数据处理：[Kettle](https://github.com/pentaho/pentaho-kettle)、[Apache Doris](https://github.com/apache/incubator-doris/)
--   基础设施：[Docker](https://www.docker.com/)
+-Backend: [Spring Boot](https://spring.io/projects/spring-boot)
+-Front end: [Vue.js](https://vuejs.org/), [Element](https://element.eleme.cn/), [Apache ECharts](https://github.com/apache/ echarts)
+-Middleware: [MySQL](https://www.mysql.com/)
+-Data processing: [Kettle](https://github.com/pentaho/pentaho-kettle), [Apache Doris](https://github.com/apache/incubator-doris/)
+-Infrastructure: [Docker](https://www.docker.com/)
 
 ## License & Copyright
 
